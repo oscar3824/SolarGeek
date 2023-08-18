@@ -1,0 +1,15 @@
+.entrar {
+    padding: 0.8rem 1.6rem;
+    background-color:#2A7AE4;
+
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .entrar:hover {
+    background-color: #1E5499;
+  }

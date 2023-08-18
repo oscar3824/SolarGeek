@@ -1,0 +1,8 @@
+.iniciar__sesion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 4rem 0;
+}

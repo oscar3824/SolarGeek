@@ -1,0 +1,37 @@
+.banner {
+    background: url('/assets/img/banner-panel.jpg') no-repeat center / cover;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    max-height: 350px;
+    padding:  0;
+    height: calc(100vh - 72px);
+
+
+
+}
+.banner__container{
+    position: absolute;
+    line-height: 1;
+    width: 80%;
+    left: 5%;
+    top:5% 
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner{
+        max-height: 200px;
+    }
+    
+}
+@media screen and (max-width: 425px){
+    .banner{
+        max-height: 200px;
+
+
+    }
+     
+}

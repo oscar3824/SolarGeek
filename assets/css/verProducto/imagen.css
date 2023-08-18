@@ -1,0 +1,10 @@
+.img__producto{
+    width: 40%;
+  }
+
+  @media screen and (max-width: 780px) {
+    .img__producto{
+      width: 100%;
+    }
+    
+  }

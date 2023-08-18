@@ -1,0 +1,47 @@
+.product-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 2rem;
+    width: 60%;
+
+  }
+
+  .product-name {
+    font-size: 15px;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #27ae60; /* Color verde del e-commerce */
+  }
+  
+  .product-description {
+    text-align: justify;
+    width: 90%;
+    line-height: 1.7;
+    color: #555;
+  }
+ 
+
+  @media screen and (max-width: 780px) {
+    .product-info{
+      width: 100%;
+    }
+    .product-description{
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    
+  }
+  @media screen and (max-width: 425px) {
+    .product-name{
+      font-size: 22px ;
+    }
+    .subtitulo{
+      font-size: 15px;
+    }
+    
+  }

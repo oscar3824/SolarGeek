@@ -1,0 +1,31 @@
+.sobre {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+
+  }
+.sobre:hover{
+  text-decoration: underline;
+}
+.titulo__contacto{
+  color: #2A7AE4;
+  font-family: 'Krub', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  padding-bottom: 1rem;
+
+}
+.icon__contacto{
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .titulo__contacto{
+    text-align: center;
+  }
+  .sobre{
+    text-align: center;
+  }
+  
+}

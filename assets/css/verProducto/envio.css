@@ -1,0 +1,17 @@
+.envio{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.envio__titulo{
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+}
+.envio__item{
+    line-height: 1.5;
+    color: #555;
+    width: 80%;
+    text-align: justify;
+    padding-left: 10px;
+}

@@ -1,0 +1,31 @@
+.box{
+    width: 15%;
+}
+.imagen__container {
+    flex: 1; 
+    overflow: hidden;
+}
+.imagen__productos{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+@media screen and (max-width:768px) {
+    .box{
+        padding: 1rem 0;
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .box{
+        width: 40%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+  
+    
+}

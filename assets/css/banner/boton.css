@@ -1,0 +1,37 @@
+
+
+.btn__banner{
+  background-color: var(--background-botones);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  font-family: 'Krub', sans-serif;
+
+}
+.btn__banner:hover{
+  background-color: #1E5499;
+}
+
+@media screen and (max-width: 768px) {
+  .btn__banner {
+      font-size: 10px;
+      padding: 10px 20px;
+     
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .btn__banner {
+    font-size: 10px; 
+    padding: 6px 14px;
+    width: 30%;
+ 
+  }
+}
+
+
+
+

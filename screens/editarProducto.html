@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edicion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/header/busqueda.css">
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/header/titulo.css">
+    <link rel="stylesheet" href="/assets/css/header/login.css">
+    <link rel="stylesheet" href="/assets/css/administrar/seccion.css">
+    <link rel="stylesheet" href="/assets/css/administrar/titulo.css">
+    <link rel="stylesheet" href="/assets/css/administrar/formulario.css">
+    <link rel="stylesheet" href="/assets/css/contacto/seccion.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contenedor.css">
+    <link rel="stylesheet" href="/assets/css/contacto/formulario.css">
+    <link rel="stylesheet" href="/assets/css/contacto/inputs.css">
+    <link rel="stylesheet" href="/assets/css/footer/texto.css">
+    <link rel="stylesheet" href="/assets/css/contacto/enlaces.css">
+    <link rel="stylesheet" href="/assets/css/footer/div.css">
+    <link rel="stylesheet" href="/assets/css/footer/texto.css">
+
+</head>
+<header class="encabezado">
+    <div class="buscador">
+        <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
+        <div class="input__container">
+            <input type="text" class="input__busqueda" placeholder="Buscar productos">
+            <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
+        </div>
+        <a href="screens/login.html" class="sobre"><button class="login">Login</button></a>
+
+    </div>
+</header>
+<body>
+
+    <section class="agregar__producto">
+        <div class="contacto__form">
+            <fieldset>
+                <legend class="titulo">Editar productos</legend>
+                <form action="" class="contacto__home" id="form" data-formulario>
+
+                    <div class="input__container input__todo">
+                        <input class="input" id="inputImagen" type="text" placeholder="Imagen" required data-url/>
+                        <label class="input-label" id="inputImagen" for="inputImagen">Imagen</label>
+                        <span class="input-message-error">Este campo no puede estar vacio</span>
+                    </div>
+
+
+                      <div class="input__container">
+                        <input class="input" id="name" type="texto" placeholder="Categoria" required data-categoria>
+                        <label class="input-label " for="name">Categoria</label>
+                        <span class="input-message-error">Este campo no puede estar vacio</span>
+                    </div>
+                    <div class="input__container">
+                        <input class="input" id="nombreProducto" type="texto" placeholder=" Nombre del producto" required  data-name/>
+                        <label class="input-label" for="nombreProducto">Nombre</label>
+                        <span class="input-message-error">Este campo no puede estar vacio</span>
+                    </div>
+                    <div class="input__container">
+                        <input class="input" id="precio" type="tel" placeholder=" Precio del producto" required data-price/>
+                        <label class="input-label" for="precio">Precio</label>
+                        <span class="input-message-error">Este campo no puede estar vacio</span>
+                    </div>
+                    <div class="input__container">
+                        <textarea class="input input--textarea" id="descripcion"  placeholder=" Descripcion del producto" r data-descripcion></textarea>
+                        <label class="input-label" for="descripcion">Descripcion</label>
+                        <span class="input-message-error">Este campo no puede estar vacio</span>
+                    </div>
+
+                    <button class="agregar">Agregar modificación</button>
+                </form>
+        </div>
+        
+        </fieldset>
+      
+    </section>
+    <section class="contacto">
+        <div class="contenedor">
+            <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
+            <ul>
+                <li class="sobre"><a href="#" class="sobre">Quienes somos </a></li>
+                <li class="sobre"><a href="#" class="sobre">Contacto </a></li>
+                <li class="sobre"><a href="#" class="sobre">Servicios</a></li>
+                <li class="sobre"><a href="#" class="sobre">Preguntas frecuentes</a></li>
+                <li class="sobre"><a href="#" class="sobre">Política de privacidad </a></li>
+            </ul>
+            <div class="contacto__form">
+                <fieldset>
+                    <legend class="subtitulo">Habla con nosotros</legend>
+                    <form action="" class="contacto__home">
+                        <div class="input__container">
+                            <input name="name" id="nombre" class="input" type="text" placeholder="Nombre" maxlength="20" required data-tipo="nombre">
+                            <label class="input-label" for="nombre">Nombre</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input__container">
+                            <textarea class="input" id="mensaje" cols="30" rows="1" placeholder="Escribe tu mensaje" maxlength="120" required data-tipo="mensaje"></textarea>
+                            <label class="input-label" for="mensaje">Mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+
+                        <button class="enviar__mensaje">Enviar mensaje</button>
+                    </form>
+
+                </fieldset>
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="footer">
+        <div class="footer__rodape">
+            <p>&copyCopyrigth-Oscar Camacho</p>
+            <p>oscarcamacho699@gmail.com</p>
+            <p>2023</p>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+    integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module"  src="../validacion/app.js" ></script>
+    <script type="module" src="../controllers/crear-producto-controller.js"></script>
+    <script type="module" src="../controllers/actualizar-producto-controller.js"></script>
+    </body>
+</html>

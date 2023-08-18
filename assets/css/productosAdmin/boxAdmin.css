@@ -1,0 +1,25 @@
+.box__productos--admin{
+    width: 20%;
+    position:relative;
+
+}
+.imagen__productos--admin{
+    width: 100%;
+}
+.icon__delete{
+    position: absolute;
+    font-size: 1.5rem;
+    color: #ff9900;;
+    right: 30%;
+    top: 1%;
+
+}
+.icon__edit{
+    position: absolute;
+    font-size: 1.5rem;
+    color: #ff9900;;
+    right: 5%;
+    top: 1%;
+
+
+}

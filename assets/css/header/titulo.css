@@ -1,0 +1,36 @@
+.titulo__Principal {
+    color: #2A7AE4;
+    font-family: 'Krub', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    padding-bottom: 1rem;
+
+  }
+  .icon {
+    font-size: 36px;
+    margin-right: 10px;
+
+  }
+  
+  @media screen and (max-width:768px) {
+    .titulo__Principal{
+      font-size: 24px;
+      width: 35%;
+    }
+    .icon {
+      font-size: 24px; 
+  }
+    
+  }
+  @media screen and (max-width: 425px) {
+    .titulo__Principal {
+      font-size: 18px; 
+      padding-top: 10px;
+      width: 70%;
+  }
+  .icon {
+    font-size: 18px; 
+}
+
+  }
+

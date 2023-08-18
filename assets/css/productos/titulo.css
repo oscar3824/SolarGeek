@@ -1,0 +1,40 @@
+.todo__productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    
+
+}
+.titulo{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .todo__productos{
+        padding: 1rem 1rem;
+
+
+    }
+
+}
+@media screen and (max-width: 425px) {
+    .todo__productos{
+        padding: 0 1rem;
+        margin: 0;
+
+
+
+    }
+    .titulo{
+        font-size: 24px;
+        padding: 1rem 1rem;
+      }
+   
+      
+    
+}

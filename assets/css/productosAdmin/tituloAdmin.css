@@ -1,0 +1,12 @@
+.todo__productos--admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0 5.5rem;
+}
+.titulo__productos--admin{
+    font-size: 2rem;
+    color: #333;
+}

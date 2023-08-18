@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Categoria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/header/busqueda.css">
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/header/titulo.css">
+    <link rel="stylesheet" href="/assets/css/header/login.css">
+    <link rel="stylesheet" href="/assets/css/productos/contenedor.css">
+    <link rel="stylesheet" href="/assets/css/productos/titulo.css">
+    <link rel="stylesheet" href="/assets/css/productos/seccion.css">
+    <link rel="stylesheet" href="/assets/css/productos/box.css">
+    <link rel="stylesheet" href="/assets/css/contacto/seccion.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contenedor.css">
+    <link rel="stylesheet" href="/assets/css/contacto/formulario.css">
+    <link rel="stylesheet" href="/assets/css/contacto/inputs.css">
+    <link rel="stylesheet" href="/assets/css/footer/texto.css">
+    <link rel="stylesheet" href="/assets/css/contacto/enlaces.css">
+    <link rel="stylesheet" href="/assets/css/footer/texto.css">
+    <link rel="stylesheet" href="/assets/css/verProducto/informacion.css">
+    <link rel="stylesheet" href="/assets/css/verProducto/volver.css">
+
+
+</head>
+<header class="encabezado">
+    <div class="buscador">
+        <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
+        <div class="input__container">
+            <input type="text" class="input__busqueda" placeholder="Buscar productos">
+            <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
+        </div>
+        <a href="/screens/login.html" class="sobre"><button class="login">Login</button></a>
+
+    </div>
+</header>
+
+<body>
+    <section class="productos">
+        <div class="todo__productos">
+            <h1 class="titulo">Productos</h1>
+        <a href="../index.html">
+            <button class="btn__volver"><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i> Volver</button>
+        </a>
+        </div>
+        <div class="contenedor__productos" data-produc-categoria>
+
+        </div>
+    </section>
+        <section class="contacto">
+            <div class="contenedor">
+                <div class="envio">
+                    <h1 class="titulo__contacto"><i class="fa-solid fa-sun icon_contacto"></i>SolarGeek</h1>
+                    <ul>
+                        <li class="sobre"><a href="#" class="sobre">Quienes somos </a></li>
+                        <li class="sobre"><a href="#" class="sobre">Contacto </a></li>
+                        <li class="sobre"><a href="#" class="sobre">Servicios</a></li>
+                        <li class="sobre"><a href="#" class="sobre">Preguntas frecuentes</a></li>
+                        <li class="sobre"><a href="#" class="sobre">Política de privacidad </a></li>
+                    </ul>
+
+                </div>
+               
+                <div class="contacto__form">
+                    
+                    <form action="" class="contacto__home">
+                        <fieldset>
+                            <legend class="subtitulo">Habla con nosotros</legend>
+                            <div class="input__container">
+                                <input name="name" id="nombre" class="input" type="text" placeholder="Nombre" maxlength="20" required data-tipo="nombre">
+                                <label class="input-label" for="nombre">Nombre</label>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                           
+                            <div class="input__container">
+                            <textarea class="input" id="mensaje" cols="30" rows="1" placeholder="Escribe tu mensaje" maxlength="120" required data-tipo="mensaje"></textarea>
+                            <label class="input-label" for="mensaje">Mensaje</label>
+                            <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            
+                        
+                            <button class="enviar__mensaje">Enviar mensaje</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        
+        </section>
+    
+        <section class="footer">
+            <div class="footer__rodape">
+                <p>&copyCopyrigth-Oscar Camacho</p>
+                <p>oscarcamacho699@gmail.com</p>
+                <p>2023</p>
+            </div>
+        </section>
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="module" src="../controllers/productos-categoria-controller.js"></script>
+    <script type="module" src="../validacion/app.js"></script>
+</body>
+
+</html>

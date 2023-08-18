@@ -1,0 +1,23 @@
+.encabezado {
+  padding: 2rem 3rem;
+  background-color: #f5f5f5;
+   
+  }
+
+ /* Media Query para tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .encabezado {
+      padding: 1rem; /* Ajusta el padding */
+  }
+ 
+}
+
+
+/* Media Query para móviles (max-width: 425px) */
+@media screen and (max-width: 425px) {
+  .encabezado {
+      padding: .8rem; /* Ajusta el padding */
+      align-items: center;
+  }
+  
+}

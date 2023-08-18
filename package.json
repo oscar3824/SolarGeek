@@ -1,0 +1,10 @@
+{
+  "name": "solargeek",
+  "version": "1.0.0",
+  "description": "Este es un ecomerce para productos de enrgia solar",
+  
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
+

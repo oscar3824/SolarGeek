@@ -1,0 +1,17 @@
+.ver__mas--admin{
+    padding: 0.8rem 1.6rem;
+    background-color: white;
+    color:  #ff9900;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  .icon__mas{
+    margin-left: .2rem;
+  }

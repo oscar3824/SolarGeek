@@ -1,0 +1,26 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+}
+.envio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+@media screen and (max-width: 768px) {
+    .envio{
+        display: block;
+        width: 100%;
+        
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .contenedor{
+        display: block;
+    }
+    
+}

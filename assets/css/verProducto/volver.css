@@ -1,0 +1,14 @@
+.btn__volver{
+  padding: 0.8rem 1.6rem;
+  background:none;
+  color: #2A7AE4;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  animation: pulse 2s infinite;
+  font-family: "Raleway";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }

@@ -1,0 +1,30 @@
+
+.contenedor__productos--admin{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+.items__productos--admin {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .subtitulo__productos--admin {
+    font-size: 1rem;
+    color: #ff9900;
+    margin-bottom: 1rem;
+  }
+  
+  .precio {
+    font-size: .8rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .id__producto{
+    font-size: 10px;
+    color: #666;
+  }

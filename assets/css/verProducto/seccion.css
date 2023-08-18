@@ -1,0 +1,19 @@
+  section.producto{
+    background-color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  section.productos{
+    padding:1rem 0;
+  }
+  
+}
+  
+ 
+  
+  
+  
+ 
+  
+ 
+  
