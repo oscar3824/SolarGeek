@@ -81,16 +81,17 @@
   }
 
   @media screen and (max-width: 425px) {
+    .contenedor__productos{
+      width: 100%;
+      gap:10px;
+
+    }
     .nombre_producto,
     .precio{
       font-size: 14px;
 
     }
-    .items{
-      width: 80%;
-
-     
-    }
+   
     .ver__producto{
       font-size: 15px;
      }

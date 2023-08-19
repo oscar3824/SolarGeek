@@ -1,3 +1,9 @@
+.titulo__container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  width: 100%;
+}
 .titulo__Principal {
     color: #2A7AE4;
     font-family: 'Krub', sans-serif;
@@ -14,7 +20,6 @@
   
   @media screen and (max-width:768px) {
     .titulo__Principal{
-      font-size: 24px;
       width: 35%;
     }
     .icon {
@@ -22,15 +27,24 @@
   }
     
   }
-  @media screen and (max-width: 425px) {
-    .titulo__Principal {
-      font-size: 18px; 
-      padding-top: 10px;
-      width: 70%;
+    @media screen and (max-width: 425px) {
+      .titulo__Principal {
+        padding-top: 10px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+  
+      }
+  
+  .container__titulo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: inherit;
   }
-  .icon {
-    font-size: 18px; 
-}
+ 
+  
 
   }
 

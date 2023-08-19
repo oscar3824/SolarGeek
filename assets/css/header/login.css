@@ -25,9 +25,7 @@
   }
   @media screen and (max-width: 425px) {
     .login{
-      padding: 0.3rem 1rem; /* Ajusta el padding */
-      font-size: 10px; 
-      margin-top: 13px;
+      padding: 0.3rem 1.5rem;
       width: 100%;
     }
   }

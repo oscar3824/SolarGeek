@@ -4,20 +4,17 @@
    
   }
 
- /* Media Query para tablet (max-width: 768px) */
 @media screen and (max-width: 768px) {
   .encabezado {
-      padding: 1rem; /* Ajusta el padding */
+      padding: 1rem; 
   }
  
 }
 
 
-/* Media Query para móviles (max-width: 425px) */
 @media screen and (max-width: 425px) {
   .encabezado {
-      padding: .8rem; /* Ajusta el padding */
-      align-items: center;
+    padding: 1rem 2rem;
   }
   
 }

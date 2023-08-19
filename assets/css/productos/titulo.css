@@ -8,10 +8,9 @@
 
 }
 .titulo{
-    color: #464646;
-    font-family: 'Raleway', sans-serif;
+    color:  #1E5499;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {

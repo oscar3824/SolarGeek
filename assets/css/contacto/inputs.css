@@ -95,6 +95,9 @@
 }
 
 @media screen and (max-width: 425px) {
+  .input__container{
+    width: 70%;
+  }
   .input{
     width: 150%;
   }

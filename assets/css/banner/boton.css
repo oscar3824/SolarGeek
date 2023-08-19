@@ -26,8 +26,7 @@
 @media screen and (max-width: 425px) {
   .btn__banner {
     font-size: 10px; 
-    padding: 6px 14px;
-    width: 30%;
+    padding: 6px 8px;
  
   }
 }

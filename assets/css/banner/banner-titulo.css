@@ -29,7 +29,7 @@
 }
 @media screen and (max-width:425px) {
     .banner__titulo{
-        font-size: 24px;
+        font-size: 28px;
         -webkit-text-stroke: 1px  #149ddd ;
 
     }
