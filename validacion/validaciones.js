@@ -1,8 +1,7 @@
-const miFormulario = document.querySelector(".contacto__home");
+const miFormulario = document.querySelector("[data-form]");
 
 miFormulario.addEventListener("submit", (evento) => {
     evento.preventDefault();
-    alert("¡Formulario enviado correctamente!");
     
   });
 
@@ -46,6 +45,12 @@ const tipoErrores = [
 const mensajesError = {
     nombre: {
         valueMissing: "Este campo no puede estar vacio",
+
+    },
+    telefono: {
+        valueMissing: "Este campo no puede estar vacio",
+        patternMismatch: "El campo telefono debe tener 10 caracteres "
+
 
     },
     mensaje:{

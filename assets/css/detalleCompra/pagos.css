@@ -1,0 +1,68 @@
+.info__pago{
+    display: flex;
+    flex-direction: column;
+    font-family: Raleway;
+    margin: 0 3rem;
+
+}
+.info__pago h4{
+    font-size: 28px;
+    color:#333;
+
+}
+.info__pago ul {
+
+    line-height: 1.5;
+    color: #333;
+    font-size: 18px;
+}
+.box__detalle{
+    display: flex;
+    align-items: center;
+}
+.detalle__contacto li{
+    color: #333;
+    font-size: 22px;
+}
+.detalle__contacto i{
+    font-size: 36px;
+    padding-right: 1rem;
+    color:#2A7AE4;
+}
+.detalle__contacto a{
+    text-decoration: none;
+    color:#333;
+}
+.detalle__contacto a:hover{
+    text-decoration: underline;
+
+}
+
+.detalle__contacto span {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+
+    .info__pago{
+        margin: 1rem;
+    }
+   
+    .detalle__contacto{
+        padding: 1rem ;
+        align-items: start;
+    }
+    
+    .detalle__contacto ul{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        
+    }
+    .detalle__contacto h4{
+        font-size: 22px;
+        color:#333;
+    }
+}

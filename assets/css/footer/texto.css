@@ -1,6 +1,7 @@
 .footer__rodape {
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
+    font-family: "Raleway";
     line-height: 0.5;
     padding: 2rem;
 }

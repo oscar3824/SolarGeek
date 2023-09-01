@@ -19,9 +19,7 @@
   }
   
   @media screen and (max-width:768px) {
-    .titulo__Principal{
-      width: 35%;
-    }
+   
     .icon {
       font-size: 24px; 
   }
@@ -29,10 +27,7 @@
   }
     @media screen and (max-width: 425px) {
       .titulo__Principal {
-        padding-top: 10px;
-        width: 100%;
-        font-size: 30px;
-        text-align: center;
+        font-size: 22px;
   
       }
   

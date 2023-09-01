@@ -3,7 +3,6 @@
   background:none;
   color: #2A7AE4;
   border: none;
-  border-radius: 0.4rem;
   cursor: pointer;
   animation: pulse 2s infinite;
   font-family: "Raleway";
@@ -11,6 +10,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+
   }
   @keyframes pulse {
     0% { transform: scale(1); }

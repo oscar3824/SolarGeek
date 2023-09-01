@@ -9,7 +9,7 @@ ul {
 
 @media screen and (max-width: 425px) {
     section.contacto{
-        padding: 3rem 2rem;
+        padding: 2rem 0;
         }
     
 }

@@ -1,14 +1,12 @@
-
-
 .btn__banner{
   background-color: var(--background-botones);
-  color: #fff;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-  transition: background-color 0.3s ease;
-  width: 150px;
-  font-family: 'Krub', sans-serif;
+  color: #FFFFFF;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
 
 }
 .btn__banner:hover{

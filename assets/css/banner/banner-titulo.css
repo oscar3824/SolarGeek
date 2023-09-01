@@ -1,23 +1,23 @@
-.banner__titulo{
+.banner__titulo {
     color: white;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    font-family: Raleway;
     font-size: 52px;
-    font-weight:600;
     font-style: normal;
-    font-family: var(--Caprasimo);
-    -webkit-text-stroke: 3px  #149ddd ;
-    -webkit-text-fill-color: white; 
-}
+    font-weight: 700;
+    line-height: normal;
 
+
+}
 .subtitulo__banner {
     color: white;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
-    font-family: var(--Caprasimo);
-    font-size: 25px;
+    font-family: Raleway;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    -webkit-text-stroke: 1px  #149ddd ; 
-    -webkit-text-fill-color: white; 
+    line-height: normal;
+
 }
 @media screen and (max-width:768px) {
     .banner__titulo{
@@ -29,13 +29,11 @@
 }
 @media screen and (max-width:425px) {
     .banner__titulo{
-        font-size: 28px;
-        -webkit-text-stroke: 1px  #149ddd ;
+        font-size: 22px;
 
     }
     .subtitulo__banner{
-        font-size: 15px;
-        -webkit-text-stroke: .5px  #149ddd ;
+        font-size: 14px;
 
 
     }

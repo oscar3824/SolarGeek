@@ -13,11 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Krub&family=Montserrat:wght@100;400&family=Prata&family=Raleway&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Krub&family=Montserrat:wght@100;400&family=Prata&family=Raleway&display=swap"
-        rel="stylesheet">
+    
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/header/header.css">
@@ -33,31 +29,26 @@
     <link rel="stylesheet" href="assets/css/productos/box.css">
     <link rel="stylesheet" href="assets/css/productos/btnMas.css">
     <link rel="stylesheet" href="assets/css/contacto/seccion.css">
+    <link rel="stylesheet" href="assets/css/detalleContacto/detalleContacto.css">
     <link rel="stylesheet" href="assets/css/contacto/contenedor.css">
     <link rel="stylesheet" href="assets/css/contacto/formulario.css">
     <link rel="stylesheet" href="assets/css/contacto/inputs.css">
-    <link rel="stylesheet" href="assets/css/footer/texto.css">
     <link rel="stylesheet" href="assets/css/contacto/enlaces.css">
+    <link rel="stylesheet" href="assets/css/footer/texto.css">
     <link rel="stylesheet" href="assets/css/footer/container.css">
     <link rel="stylesheet" href="assets/css/footer/texto.css">
 
 
 </head>
 <header class="encabezado">
-    <div class="buscador">
-            <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
 
-        <div class="container__buscador">
-            <input type="text" class="input__busqueda" placeholder="Buscar productos">
-            <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
-        </div>
-
-        
-            <a href="screens/login.html" class="sobre"><button class="login">Login</button></a>
-
-        
-
+    <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
+    <div class="container__buscador">
+        <input type="text" class="input__busqueda" placeholder="Buscar productos">
+        <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
     </div>
+    <a href="screens/login.html" class="btn__login">Login</a>
+
 </header>
 
 <body>
@@ -66,8 +57,8 @@
 
         <div class="banner__container">
             <h2 class="banner__titulo">Energia solar en su hogar</h2>
-            <p class="subtitulo__banner">Envio gratis en duitama y sus alrededores</p>
-            <button class="btn__banner ">Ver productos</button>
+            <p class="subtitulo__banner">Productos amigables con el medio ambiente</p>
+            <a href="screens/login.html" class="btn__banner">Ver reflectores</a>
         </div>
     </section>
 
@@ -95,23 +86,40 @@
         <div class="contenedor">
             <div class="envio">
                 <h2 class="titulo__contacto"><i class="fa-solid fa-sun icon_contacto"></i>SolarGeek</h2>
+             <div class="detalle__contacto">
+                <h4>Detalle de contacto</h4>
+            
+                    <div class="box__detalle">
+                        <i class="fa-solid fa-at"></i>
+                        <ul>
+                            <li>Email</li>
+                            <span>oscarcamacho699@gmail.com</span>
 
-                <ul>
-                    <li class="sobre"><a href="#" class="sobre">Quienes somos </a></li>
-                    <li class="sobre"><a href="#" class="sobre">Contacto </a></li>
-                    <li class="sobre"><a href="#" class="sobre">Servicios</a></li>
-                    <li class="sobre"><a href="#" class="sobre">Preguntas frecuentes</a></li>
-                    <li class="sobre"><a href="#" class="sobre">Política de privacidad </a></li>
-                </ul>
+                        </ul>
+                    </div>
+                    <div class="box__detalle">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <ul>
+                            <li><a href="whatsapp://send?phone=573173507086">WhatsApp</a></li>
+                            <span>+57 3173507086</span>
+                        
+                        </ul>
+                    </div>
+                    <div class="box__detalle">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <ul>
+                            <li>Direccion</li>
+                            <span>Duitama|Boyacá|Colómbia</span>
+                        </ul>
 
+                </div>
+              
             </div>
-
-
+            </div>
             <div class="contacto__form">
-
-                <form action="" class="contacto__home">
+                <form action="" class="" data-form>
                     <fieldset>
-                        <legend class="subtitulo">Habla con nosotros</legend>
+                        <legend class="subtitulo">Hable con nosotros</legend>
                         <div class="input__container">
                             <input name="name" id="nombre" class="input" type="text" placeholder="Nombre" maxlength="20"
                                 required data-tipo="nombre">

@@ -1,0 +1,49 @@
+.input-container {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+  .input-message-error {
+    display: none;
+  }
+  .input-container--invalid .input-message-error {
+    color: red;
+    display: block;
+    padding-left: .5rem;
+
+  }
+
+.formcontato__input,
+.formcontato__textarea {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+}
+
+.formcontato__botao {
+    padding: .7rem 2rem;
+    background-color: #2A7AE4;
+    width: 100%;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formcontato__botao:hover {
+    background-color: #1E5499;
+  }
+
+
+@media(max-width:425px){
+    .contato__form {
+        padding: 1rem;
+    }
+
+    
+}

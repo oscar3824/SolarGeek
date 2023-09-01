@@ -7,10 +7,14 @@
     
 
 }
-.titulo{
-    color:  #1E5499;
+.titulo {
+    color: #1E5499;
+    font-family: Raleway;
     font-size: 32px;
-    font-weight: 600;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -30,7 +34,7 @@
 
     }
     .titulo{
-        font-size: 24px;
+        font-size: 22px;
         padding: 1rem 1rem;
       }
    
