@@ -4,6 +4,9 @@
   justify-content: space-evenly;
 
 }
+.buscados__oculto{
+  display: none;
+}
 
 .container__buscador {
   position: relative;
@@ -31,9 +34,8 @@
 .icon__busqueda {
   position: absolute;
   left: 93%;
-  top: 35%;
-  width: 24px;
-  height: 24px;
+  top: 28%;
+  font-size: 20px;
   color: #2A7AE4;
 }
 
@@ -48,7 +50,7 @@
   }
 
   .container__buscador {
-    width: 40%;
+    width: 50%;
 
   }
 
@@ -58,10 +60,9 @@
   }
 
 .icon__busqueda {
-  left: 85%;
+  left: 88%;
   top: 20%;
-  width: 24px;
-  height: 24px;
+  font-size: 18px;
 
 }
 }

@@ -49,6 +49,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .contacto__form{
+        margin: 1rem;
+    }
     .contacto__home{
         padding: 1rem;
     }

@@ -1,11 +1,9 @@
 import { productosServicios } from "../servicios/productos-service.js";
 
-const formCompra = document.querySelector("[data-form]")
 
 const obtenerData = () =>{
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
-    console.log(id)
 
     const idProducto = document.querySelector("[data-id]")
     const nombre = document.querySelector("[data-name]");
@@ -20,8 +18,10 @@ const obtenerData = () =>{
         descripcion.textContent = productos.descripcion;
         idProducto.value = productos.id;
     })
-    .catch(err => alert("error"))
+    .catch(err => alert(err))
        
 
 }
 obtenerData();
+
+

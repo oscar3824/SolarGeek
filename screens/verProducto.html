@@ -32,29 +32,35 @@
     <link rel="stylesheet" href="/assets/css/detalleCompra/form.css">
     <link rel="stylesheet" href="/assets/css/detalleCompra/texto.css">
     <link rel="stylesheet" href="/assets/css/detalleCompra/pagos.css">
-    <link rel="stylesheet" href="/assets/css/footer/texto.css">
     <link rel="stylesheet" href="/assets/css/contacto/enlaces.css">
     <link rel="stylesheet" href="/assets/css/footer/container.css">
     <link rel="stylesheet" href="/assets/css/footer/texto.css">
-        <link rel="stylesheet" href="assets/css/contacto/inputs.css">
+    <link rel="stylesheet" href="assets/css/productos/titulo.css">
+
 
 
 </head>
 <header class="encabezado">
 
     <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
-    <div class="container__buscador">
+    <div class="container__buscador" style="display: none;">
         <input type="text" class="input__busqueda" placeholder="Buscar productos">
         <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
     </div>
+
 </header>
 
 <body>
-    <section class="producto">
-        <a href="../index.html">
-            <button class="btn__volver"><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i> Volver</button>
-        </a>
+    <div class="btn__regreso">
+        <a href="../index.html" class="btn__volver"><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i> Volver</a>
 
+
+    </div>
+
+
+    <section class="producto">
+
+       
         <div class="product-details" data-container>
             <img class="img__producto" alt="imagen del producto" data-url>
             <div class="product-info">
@@ -62,6 +68,7 @@
                 <p class="product-price" data-price></p>
                 <p class="product-description" data-descripcion></p>
             </div>
+
 
         </div>
         </div>
@@ -71,56 +78,10 @@
     </section>
     <section class="compra">
         <div class="contenedor__detalle--compra">
-            <div class="detalle__contacto">
-                <h4>Detalle de contacto</h4>
-    
-                <div class="box__detalle">
-                    <i class="fa-solid fa-at"></i>
-                    <ul>
-                        <li>Email</li>
-                        <span>oscarcamacho699@gmail.com</span>
-    
-                    </ul>
-                </div>
-                <div class="box__detalle">
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <ul>
-                        <li><a href="whatsapp://send?phone=573173507086">WhatsApp</a></li>
-                        <span>+57 3173507086</span>
-    
-                    </ul>
-                </div>
-                <div class="box__detalle">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <ul>
-                        <li>Direccion</li>
-                        <span>Duitama|Boyacá|Colómbia</span>
-                    </ul>
-                </div>
-            </div>
-            <div class="info__pago">
-                <h4>Envios</h4>
-                <ul>
-                    <li>Duitama, Santa Rosa de Viterbo, 
-                        Sogamoso, paipa y sus alrededores $10.000
-                    </li>
-                    <li>Ciudades principales | Interrapidisimo | $20.000 </li>
-                    <li>Ciudades secundarias | Interrapidisimo | $30.000</li>
-                </ul>
-                <h4>Metodos de pago</h4>
-                <ul>
-                    <li>Nequi</li>
-                    <li>DaviPlata</li>
-                    <li>Efecty</li>
-                    <li>Efectivo</li>
-                </ul>
-
-            </div>
-    
             <div class="contacto__form">
                 <h2 class="formcontato__title">Comprar producto</h2>
                 <P class="formcontato__subtext">Complete el siguiente formulario y nos pondremos en contacto con
-                    usted lo antes posible para confirmar la compra. </>
+                    usted lo antes posible para confirmar la compra. </di>
                 <form action="https://formsubmit.co/oscarcamacho699@gmail.com" method="POST" class="formcontato__form " data-form>
                     <input type="hidden" name="_next" value="https://solar-geek.vercel.app">
                     <input type="hidden" name="_captcha" value="false">
@@ -149,6 +110,43 @@
                     <button type="submit" id="btnRegistro" class="formcontato__botao btn">Enviar mensaje</button>
                 </form>
             </div>
+            <div class="detalle__contacto">
+                <h4> Ó contactanos por WhatsApp</h4>
+                <div class="box__detalle">
+                    <a href="whatsapp://send?phone=573173507086" ><i class="fa-brands fa-whatsapp " style="color: #25d366;"></i></a>
+                    <ul>
+                        <li><a href="whatsapp://send?phone=573173507086">WhatsApp</a></li>
+                        <span>+57 3173507086</span>
+    
+                    </ul>
+                </div>
+                <div class="box__detalle">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <ul>
+                        <li>Direccion</li>
+                        <span>Duitama|Boyacá|Colómbia</span>
+                    </ul>
+
+            </div>
+            </div>
+            <div class="info__pago">
+                <h4>Envios</h4>
+                <ul>
+                    <li>Duitama, Santa Rosa de Viterbo, 
+                        Sogamoso, paipa y sus alrededores $10.000
+                    </li>
+                    <li>Ciudades principales | Interrapidisimo | $20.000 </li>
+                    <li>Ciudades secundarias | Interrapidisimo | $30.000</li>
+                </ul>
+                <h4>Metodos de pago</h4>
+                <ul>
+                    <li>Nequi</li>
+                    <li>DaviPlata</li>
+                    <li>Efecty</li>
+                    <li>Efectivo</li>
+                </ul>
+
+            </div>
       
         </div>
     
@@ -156,9 +154,8 @@
 
     <section class="footer">
         <div class="footer__rodape">
-            <p>&copyCopyrigth-Lic.Oscar Camacho</p>
-            <p>oscarcamacho699@gmail.com</p>
-            <p>2023</p>
+            <p>&copyCopyrigth 2023 Lic. Oscar Camacho | </p>
+            <p>Todos los derechos reservados.</p>
         </div>
     </section>
 

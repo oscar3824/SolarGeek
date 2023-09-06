@@ -1,8 +1,11 @@
 
   
-const listarProductos = () =>fetch(`https://alurageek-api-three.vercel.app/productos `).then(respuesta => respuesta.json()).catch(err => console.log(err));
+const listarProductos = () =>fetch(`https://alurageek-api-three.vercel.app/productos `)
+.then(respuesta =>respuesta.json()).catch(err => console.log(err));
 
-const crearProducto = (nombre, precio, urlImagen, descripcion, categoria) =>fetch(`https://alurageek-api-three.vercel.app/productos `,{
+  
+
+const crearProducto = (nombre, precio, urlImagen, descripcion, categoria) =>fetch(`https://alurageek-api-three.vercel.app/productos`,{
     method : "POST",
     headers : {
         "Content-Type":"application/json"
@@ -38,6 +41,6 @@ export const productosServicios = {
     crearProducto,
     eliminarProducto,
     detalleProducto,
-    editarProducto
+    editarProducto,
 }
 

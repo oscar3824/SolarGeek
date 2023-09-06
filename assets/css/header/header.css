@@ -14,7 +14,6 @@
 
 @media screen and (max-width: 425px) {
   .encabezado {
-    justify-content: space-between;
     padding: 2rem .5rem;
   }
   

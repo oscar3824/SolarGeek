@@ -34,7 +34,7 @@ productosServicios.listarProductos().then((info) => {
   info.forEach(({ urlImagen, nombre, precio, categoria, id }) => {
       const producto = verProducto(urlImagen, nombre, precio, categoria, id);
       
-      if (categoria === "iluminacion" && contador.iluminacion<maxProductosPorSeccion){
+      if (categoria === "iluminacion" && contador.iluminacion < maxProductosPorSeccion){
         secciones.iluminacion.appendChild(producto)
         contador.iluminacion++;
       }
@@ -56,3 +56,11 @@ productosServicios.listarProductos().then((info) => {
 
 .catch((error) => alert("Ocurrió un error"));
 
+const btnSeccion = document.querySelector(".btn__banner")
+const seccion = document.getElementById("reflectores")
+
+btnSeccion.addEventListener("click", (event) =>{
+  event.preventDefault();
+  seccion.scrollIntoView({ behavior: 'smooth' }); 
+
+ });

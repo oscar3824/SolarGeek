@@ -1,11 +1,8 @@
 const miFormulario = document.querySelector("[data-form]");
 
 miFormulario.addEventListener("submit", (evento) => {
-    evento.preventDefault();
     
   });
-
-
 
 export  const valida = (input) =>{
     const tipoInput = input.dataset.tipo;

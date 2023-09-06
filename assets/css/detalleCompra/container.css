@@ -1,12 +1,13 @@
 section.compra{
-    padding: 2rem 3rem;
+    padding: 2rem;
     background-color: #f5f5f5;
 
    
 }
 .contenedor__detalle--compra{
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
+   gap: 30px;
 }
 
 .formcontato__subtext{

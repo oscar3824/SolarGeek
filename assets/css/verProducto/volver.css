@@ -1,14 +1,28 @@
-.btn__volver{
-  padding: 0.8rem 1.6rem;
-  background:none;
-  color: #2A7AE4;
-  border: none;
-  border-radius: 0.4rem;
+.btn__volver {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-botones);
+  color: #fff;
   cursor: pointer;
-  animation: pulse 2s infinite;
-  font-family: "Raleway";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  border: none;
+  transition: background-color 0.3s ease;
+  font-family: Raleway;
+  font-size: 16px;
+  text-decoration: none;
+  max-height: 25px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  height: 24px;
+}
+.btn__regreso{
+  display: flex;
+  justify-content: center;
+  height: 24px;
+  margin: 1rem;
+}
+@media screen and (max-width: 425px) {
+  .btn__volver {
+    padding: 0px 12px;
+    font-size: 13px;
   }
+}

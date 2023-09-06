@@ -15,6 +15,9 @@
     color:#2A7AE4;
     padding-right: 5px;
 }
+
+
+
 @media(max-width:425px){
     .formcontato__text{
         width: 100%;

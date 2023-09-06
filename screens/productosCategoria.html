@@ -28,7 +28,9 @@
     <link rel="stylesheet" href="/assets/css/contacto/formulario.css">
     <link rel="stylesheet" href="/assets/css/contacto/inputs.css">
     <link rel="stylesheet" href="/assets/css/contacto/enlaces.css">
+    <link rel="stylesheet" href="/assets/css/footer/container.css">
     <link rel="stylesheet" href="/assets/css/footer/texto.css">
+    <link rel="stylesheet" href="/assets/css/footer/container.css">
     <link rel="stylesheet" href="/assets/css/verProducto/informacion.css">
     <link rel="stylesheet" href="/assets/css/verProducto/volver.css">
 
@@ -36,7 +38,7 @@
 </head>
 <header class="encabezado">
     <h1 class="titulo__Principal"><i class="fa-solid fa-sun icon"></i>SolarGeek</h1>
-    <div class="container__buscador">
+    <div class="container__buscador" style="display: none;">
         <input type="text" class="input__busqueda" placeholder="Buscar productos">
         <i class="fa-solid fa-magnifying-glass icon__busqueda"></i>
     </div>
@@ -46,10 +48,11 @@
     <section class="productos">
         <div class="todo__productos">
             <h1 class="titulo">Productos</h1>
-        <a href="../index.html">
-            <button class="btn__volver"><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i> Volver</button>
-        </a>
+            <a href="../index.html" class="btn__volver"><i class="fa-solid fa-right-to-bracket fa-rotate-180"></i> Volver</a>
+
+       
         </div>
+
         <div class="contenedor__productos" data-produc-categoria>
 
         </div>
@@ -60,17 +63,8 @@
                 <h2 class="titulo__contacto"><i class="fa-solid fa-sun icon_contacto"></i>SolarGeek</h2>
              <div class="detalle__contacto">
                 <h4>Detalle de contacto</h4>
-            
                     <div class="box__detalle">
-                        <i class="fa-solid fa-at"></i>
-                        <ul>
-                            <li>Email</li>
-                            <span>oscarcamacho699@gmail.com</span>
-
-                        </ul>
-                    </div>
-                    <div class="box__detalle">
-                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-whatsapp" style="color: #25d366;"></i>
                         <ul>
                             <li><a href="whatsapp://send?phone=573173507086">WhatsApp</a></li>
                             <span>+57 3173507086</span>
@@ -81,22 +75,19 @@
                         <i class="fa-solid fa-location-dot"></i>
                         <ul>
                             <li>Direccion</li>
-                            <span>Duitama|Boyacá|Colómbia</span>
+                            <span>Duitama | Boyacá | Colómbia</span>
                         </ul>
 
                 </div>
-                  
-                
-                    
-              
-                   
-              
+            
             </div>
             </div>
 
 
             <div class="contacto__form">
-                <form action="" class="contacto__home">
+                <form action="https://formsubmit.co/oscarcamacho699@gmail.com" method="POST" class="formcontato__form " data-form>
+                        <input type="hidden" name="_next" value="https://solar-geek.vercel.app">
+                        <input type="hidden" name="_captcha" value="false">
                     <fieldset>
                         <legend class="subtitulo">Hable con nosotros</legend>
                         <div class="input__container">
@@ -107,8 +98,8 @@
                         </div>
 
                         <div class="input__container">
-                            <textarea class="input" id="mensaje" cols="30" rows="1" placeholder="Escribe tu mensaje"
-                                maxlength="120" required data-tipo="mensaje"></textarea>
+                            <textarea class="input"  id="mensaje" type="text" name="mensaje"cols="30" rows="1" placeholder="Escribe tu mensaje"
+                                maxlength="120" name="mensaje" required data-tipo="mensaje"></textarea>
                             <label class="input-label" for="mensaje">Mensaje</label>
                             <span class="input-message-error">Este campo no es valido</span>
                         </div>
@@ -120,15 +111,13 @@
             </div>
         </div>
 
-       
-    
         <section class="footer">
             <div class="footer__rodape">
-                <p>&copyCopyrigth-Oscar Camacho</p>
-                <p>oscarcamacho699@gmail.com</p>
-                <p>2023</p>
+                <p>&copyCopyrigth 2023 Lic. Oscar Camacho | </p>
+                <p>Todos los derechos reservados.</p>
             </div>
         </section>
+
 
        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
         integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
@@ -136,6 +125,7 @@
 
     <script type="module" src="../controllers/productos-categoria-controller.js"></script>
     <script type="module" src="../validacion/app.js"></script>
+
 </body>
 
 </html>

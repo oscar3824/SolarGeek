@@ -11,9 +11,9 @@
 }
 .subtitulo__banner {
     color: white;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     font-family: Raleway;
-    font-size: 22px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
