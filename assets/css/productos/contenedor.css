@@ -16,10 +16,17 @@
     transition: transform 0.5s;
     cursor: pointer;
     min-height: 320px; 
+    max-height: 50%;
  
   }
   .items:hover{
     transform: scale(1.04);
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    padding-top: 10px;
   }
     .nombre_producto {
       color: #333;

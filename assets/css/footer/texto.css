@@ -5,3 +5,10 @@
     line-height: 0.5;
     padding: 2rem;
 }
+@media screen and (max-width:425px) {
+    .footer__rodape{
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    
+}

@@ -1,0 +1,172 @@
+{
+  "productos": [
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$310.000",
+      "urlImagen": "/assets/img/camara2.webp",
+      "descripcion": "Descubre seguridad solar avanzada con nuestra cámara de aleación de aluminio. Resistente a desgaste y rayones, su carcasa de fundición a presión tiene un diseño antidesgaste y tecnología de pulverización de polvo. Además, su consumo de energía ultrabajo y ahorro inteligente brindan más de 150 días de espera de batería pura. Con un módulo WiFi de alta potencia y sensor PIR de temperatura humana, la cámara envía alertas al instante a tu teléfono. Habla y escucha a través de su micrófono y altavoces, y almacena video en su ranura para tarjeta TF de hasta 32GB. Mantén el control con activación remota y monitoreo en tiempo real. Tu seguridad, simplificada y potenciada.",
+      "categoria": "camaras",
+      "id": "296cb8d8-f866-4085-9993-3852f0d1c13b"
+    },
+    {
+      "nombre": "Lampara Solar Led ",
+      "precio": "$130.000",
+      "urlImagen": "/assets/img/reflector.webp",
+      "descripcion": "Optimiza al máximo la iluminación con el foco solar premium MAXWELL, ofreciendo un amplio rango de 270° sin puntos ciegos. Con 181 LED para una claridad excepcional en la oscuridad y un sensor de movimiento incorporado. Los paneles giratorios ajustables hasta 120° permiten dirigir la luz a áreas específicas. Su batería de larga duración proporciona de 8 a 10 horas de uso (según la configuración), y se carga en 6 a 8 horas de luz solar directa. Incluso incluye los elementos necesarios para la instalación. Este foco posee un sensor PIR de 120° con tres modos de iluminación, asegurando la iluminación total según tus necesidades. ",
+      "categoria": "iluminacion",
+      "id": "a76d4486-5303-41d9-a9b4-bec7c8caf7c8"
+    },
+    {
+      "nombre": "Reflector Solar 50w",
+      "precio": "$138.000",
+      "urlImagen": "/assets/img/reflector2.webp",
+      "descripcion": "Experimenta la comodidad de la iluminación solar con nuestro proyector de aluminio de 40 LED, potente y eficiente con 50W y clasificación IP67. Equipado con un mando a distancia y temporizador, este proyector se encenderá automáticamente después del anochecer, ofreciendo luz en espacios como patios, cabañas o callejones sin acceso a electricidad. Aprovecha la energía solar gratuita para un ahorro eficiente y fácil.\nPanel Solar de 12W\n Reflector LED de 50W\n Control remoto para manipulación sencilla\n Hasta 15 horas de funcionamiento aproximadamente\n Tiempo de carga de 5 a 8 horas aproximadamente\n Impermeabilización IP67\n Cable de longitud cable aproximada de 2,90m\n\n",
+      "categoria": "iluminacion",
+      "id": "6cb536f7-7233-4d79-b355-cd21608ac2b0"
+    },
+    {
+      "nombre": "Reflector Solar 60w",
+      "precio": "$160.000",
+      "urlImagen": "/assets/img/reflector3.webp",
+      "descripcion": "Presentamos el Reflector Solar de Alta Potencia de 60W, diseñado como un alumbrado público eficiente. Con una potencia solar de 60W y potencia eléctrica de 25W a una tensión de 6V, este reflector ofrece una iluminación brillante. Puedes configurar los niveles de brillo con el control remoto incluido. La luz tiene un color blanco de 6,500K y una protección IP65, garantizando impermeabilidad total. La batería tiene una duración de 10-12 horas al 75% y 7-8 horas al 100%, con un tiempo de carga de 5-6 horas. El panel solar es de 15W - 5.3A y está construido con aleaciones de aluminio y vidrio. Además, cuenta con una irradiación de 85 metros cuadrados y una larga vida útil. Incluye 3 metros de cable para una instalación conveniente.\n",
+      "categoria": "iluminacion",
+      "id": "05a126a3-71ca-421c-be8b-883cb47a9ccb"
+    },
+    {
+      "nombre": "Lampara Solar 60w",
+      "precio": "$155.000",
+      "urlImagen": "/assets/img/reflector4.webp",
+      "descripcion": "Luminaria Solar 60w con panel solar integrado de 9w y baterias incluidas dentro de la luminaria, esta luminaria esta diseñada para estar a la intemperie, ideal para iluminar zonas comunes o senderos peatonales.\n\nEste producto contiene:\n\nLuminaria Solar 60w\nPanel Solar 9w\nSensor de Movimiento MICROONDAS (hasta 18 metros de alcance)\nBateria interna del reflector de 9.000 mAh\n\nEspecificaciones Adicionales\n\nPotencia: 60w\nLumenes: 4.200\nBateria: 9.000 mAh\nTemperatura de Color: 6500k\nPanel Solar: Integrado\nFotocelda: Incluida en el panel solar\nAutonomia: 12 horas con sensor de movimiento\n\nCuando esta luminaria enciende y no detecta movimiento su flujo luminoso se reduce al 30% y cuando detecta movimiento sube al 100% durante 1 minuto y vuelve y baja su iluminación.\n\n",
+      "categoria": "iluminacion",
+      "id": "f8b5e6d3-69c1-4c9b-8c5f-b1192941fa91"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$257.000",
+      "urlImagen": "/assets/img/camaraSolar.webp",
+      "descripcion": "Energía solar y seguridad combinadas en nuestra cámara inalámbrica. Su panel solar de alta eficiencia almacena energía en la batería incorporada, permitiendo un funcionamiento del 99% con suficiente luz solar. Experimenta video HD 1080P día y noche, con detección de movimiento PIR y comunicación bidireccional. Resistente al agua y temperaturas extremas, esta cámara está lista para enfrentar el clima lluvioso o nevado. Especificaciones de alto nivel, incluido un sensor CMOS HD de 2MP, almacenamiento en tarjeta TF de hasta 128GB y más. Mantén la seguridad en tus manos con esta cámara inteligente y eficiente.",
+      "categoria": "camaras",
+      "id": "453b12b8-40ab-4108-994a-0384d1a8cfb1"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$383.000",
+      "urlImagen": "/assets/img/camaraSolar1.webp",
+      "descripcion": "\nExperimenta la seguridad en alta definición con nuestra cámara de seguridad inalámbrica SEHMUA. Captura momentos nítidos con su resolución Full HD 2K tanto de día como de noche, gracias a la tecnología de visión nocturna en color. Olvídate de cables con su energía solar integrada y batería recargable. Su rotación de 360° y resistencia al agua IP65 ofrecen protección en diversas condiciones climáticas. Detecta movimiento humano con precisión y habla desde cualquier lugar a través de su audio bidireccional. Configuración sencilla y almacenamiento conveniente en tarjeta SD o en la nube, ¡tu seguridad al alcance de tu mano!",
+      "categoria": "camaras",
+      "id": "b62f3994-a82e-41e0-b703-389114a9f8cf"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$361.000",
+      "urlImagen": "/assets/img/camara.webp",
+      "descripcion": "\nSensor de imagen: Sensor CMOS de 1/3\"\n Lente: 4mm\n Resolución: 3MP\n Campo de visión: gran angular de 110 °\n Filtro de IR-CUT: cambia automáticamente\n Visión Nocturna: luz IR/colorido\n Iluminación mínima: 4500mV/Lux-s\n Distancia infrarroja aproximada: 20-30m\n Audio bidireccional: compatible\n Forma de conexión: WiFi de 2,4 GHz\n Estándar inalámbrico: 2,4 GHz,802 .11b/g/n (no es compatible con 5G)\n Almacenamiento: Almacenamiento en la nube (Opcional) / Tarjeta micro SD (NO incluida)\n Color: blanco\n Micrófono incorporado\n Infrarrojos para visión nocturna\n",
+      "categoria": "camaras",
+      "id": "0c2097a2-845d-4479-af64-8247f73fb4a2"
+    },
+    {
+      "nombre": "Lampara Solar  100w",
+      "precio": "$200.000",
+      "urlImagen": "/assets/img/lampara100w.webp",
+      "descripcion": "Presentamos una lámpara de alumbrado público de alta gama y gran capacidad, diseñada para iluminar eficazmente una variedad de áreas exteriores, desde entradas de casas hasta canchas, parqueaderos y negocios. Sus características notables incluyen una batería de 18Ah, un potente panel solar de carga rápida de 40W, una vida útil impresionante de 30,000 horas para mayor durabilidad y resistencia a condiciones adversas con su clasificación IP66. Equipada con 8 chips LED para una iluminación potente durante la noche, es resistente a impactos de granizo (clasificación IK08) y cuenta con la ventaja de disponer de repuestos de batería una vez que esta alcance su vida útil. Con un tiempo de autonomía de 10-12 horas y una garantía sólida de 12 meses, esta lámpara ofrece una solución confiable y duradera para la iluminación exterior de alta calidad.",
+      "categoria": "iluminacion",
+      "id": "5880a00f-2683-43d4-aefb-e466f180fda9"
+    },
+    {
+      "nombre": "Reflector Solar 100w",
+      "precio": "$186.000",
+      "urlImagen": "/assets/img/reflector100w.webp",
+      "descripcion": "Te presentamos un potente reflector solar de 100W que combina eficiencia y durabilidad. Con una potencia eléctrica de 40W y una batería de 15,000mAh, garantiza un rendimiento confiable. Ofrece un flujo luminoso de 70-80 lúmenes por vatio, protección IP65 para uso en exteriores y una clasificación IK08 que lo hace resistente a impactos. Su panel solar policristalino de 16W (alta eficiencia monocristalino) mide 30x35cm y tiene una tensión de 6V y corriente de 5.01A. Con un tiempo de carga de 4-6 horas, proporciona una duración de 12 horas al 100%. El envío es gratuito cuando seleccionas la opción de Mercado Envíos (bajo las condiciones de Mercado Libre), pero ten en cuenta que si eliges acordar el envío con el comprador, los gastos correrán por tu cuenta. Este paquete incluye el reflector, panel solar, control remoto, soportes y un cable de 4 metros.",
+      "categoria": "iluminacion",
+      "id": "5a0e9b09-3f8f-4fbd-9d09-bbcf59eeb26e"
+    },
+    {
+      "nombre": "Lampara Solar 90w",
+      "precio": "$175.000",
+      "urlImagen": "/assets/img/lampara90w.webp",
+      "descripcion": "Presentamos una potente lámpara solar de 90W, perfecta para aplicaciones de alumbrado público. Esta lámpara combina una potencia solar de 90W con una potencia eléctrica de 25W. Viene equipada con un sensor de movimiento y un control remoto para mayor versatilidad. También incluye un sensor para el encendido y apagado automático, lo que la hace eficiente en el consumo de energía. Funciona a una tensión de 6V y emite una luz blanca de 6,500K. Su protección IP65 la hace resistente al agua y sellada herméticamente para una total impermeabilidad. Esta lámpara es ideal para montajes a alturas de 3-4 metros y cuenta con una duración de batería de 10-12 horas, con un tiempo de carga de 5-6 horas. Está construida con aleaciones de aluminio y vidrio para mayor durabilidad y tiene una irradiación que cubre 80 metros cuadrados. Ten en cuenta que el brazo para la instalación no está incluido.",
+      "categoria": "iluminacion",
+      "id": "a734da0a-94db-4656-83a7-4697bbd33a7c"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$375.000",
+      "urlImagen": "/assets/img/camara5.webp",
+      "descripcion": "Camara solar con una batería  de 9600 mAh con panel solar incorporado que ofrece hasta 180 días de seguridad con una sola carga, proporcionando tranquilidad durante todo el año. La cámara solar 2K garantiza imágenes nítidas y visión nocturna a color de alta definición, con un amplio ángulo de visión. Equipada con un sensor de movimiento PIR, minimiza falsas alarmas y, en modo de alarma, emite luces y sirenas, graba eventos y envía alertas para una seguridad completa. Esta cámara inalámbrica resistente al agua IP65 ofrece comunicación bidireccional de alta calidad, incluso en condiciones climáticas adversas. Además, las cámaras cuentan con eficiente gestión de batería y opciones de almacenamiento en tarjetas SD de hasta 128 GB, así como almacenamiento en la nube con una prueba gratuita de 7 días, para un control total de la seguridad con facilidad.",
+      "categoria": "camaras",
+      "id": "38c48175-7abb-41f0-b68b-2945801d1a27"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$366.000",
+      "urlImagen": "/assets/img/camara6.webp",
+      "descripcion": "Esta avanzada cámara de seguridad solar de BOIFUN ofrece una iluminación nocturna excepcional con 16 LED potentes, eliminando la necesidad de farolas adicionales. Captura imágenes en alta definición 2K y garantiza una visión completa de 360°. Su sistema de detección de movimiento AI envía alertas precisas y, para disuadir a intrusos, activa una alarma de sonido y luz. Con una batería recargable de 15000 mAh y carga solar, funciona sin interrupciones, siendo respetuosa con el medio ambiente. Además, admite almacenamiento en la nube y en tarjeta SD, comunicación bidireccional y un control sencillo a través de la aplicación, brindando una solución completa de seguridad.",
+      "categoria": "camaras",
+      "id": "07cb936d-c523-43e2-a8df-e38f128fa931"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$330.000",
+      "urlImagen": "/assets/img/camara7.webp",
+      "descripcion": "Este dispositivo de seguridad incorpora características avanzadas para brindar una protección efectiva. Con resolución Full HD de 1080P y un sistema de detección dual PIR e inducción, detecta movimientos en un rango de hasta 12 metros con un amplio ángulo de 120°. Las alertas de alarma se envían a través de la aplicación móvil para una respuesta inmediata. Ofrece control de pan-tilt con un amplio rango de movimiento y visión nocturna a todo color incluso con una iluminación mínima. Almacenamiento flexible con opciones en la nube y tarjeta SD de hasta 128GB. Alimentado por panel solar y batería, con clasificación IP66 para uso en interiores y exteriores en una amplia gama de temperaturas y condiciones de humedad.",
+      "categoria": "camaras",
+      "id": "1377754e-949e-4e10-be3a-a86152ef5ba3"
+    },
+    {
+      "nombre": "Camara De Seguridad Solar",
+      "precio": "$250.000",
+      "urlImagen": "/assets/img/camara8.webp",
+      "descripcion": "Experimenta una vigilancia de alta calidad con esta cámara de seguridad 1080P HD. Ofrece una resolución nítida para no perder ningún detalle y visión nocturna en color, junto con video en vivo de 1080p. La instalación es fácil, sin cables ni complicaciones, y se conecta sin problemas a través de Wi-Fi de 2.4 GHz. Equipada con un panel solar de alta eficiencia y batería recargable, garantiza un rendimiento confiable y duradero con tan solo unas horas de luz solar al día. Su resistencia a la intemperie IP65 la hace adecuada para todas las condiciones climáticas. Con detección humana inteligente y alertas instantáneas, esta cámara ofrece tranquilidad, respaldada por opciones de almacenamiento en la nube seguras y cifradas.",
+      "categoria": "camaras",
+      "id": "94910d09-dbd4-45f2-bb05-f4342551f95f"
+    },
+    {
+      "nombre": "Planta Cerca Electrica",
+      "precio": "$590.000",
+      "urlImagen": "/assets/img/cerco1.webp",
+      "descripcion": "El Impulsor Electrónico E.S.100Km es un dispositivo robusto diseñado para operar de forma continua, 24/7 durante todo el año. Este producto cuenta con un circuito regulador, controlador de carga de batería y sistema de protección de descarga profunda programado, preservando así la vida útil de la batería. Su carcasa metálica con pintura metalizada de alta resistencia está disponible en colores verde o beige, con dimensiones de 30x13.5x11 cm y un peso neto de 4.8 kilos. Para un óptimo funcionamiento, solo requiere un panel solar de 12 voltios y ofrece una potencia de salida de 6w, con un impresionante alcance de red de 50 kilómetros. Además, su garantía por defectos de fábrica es de 12 meses, brindando confiabilidad y durabilidad.",
+      "categoria": "kit",
+      "id": "1fa48fef-5598-4707-93ec-17c46eab20e3"
+    },
+    {
+      "nombre": "Planta Cerca Electrica",
+      "precio": "$800.000",
+      "urlImagen": "/assets/img/cerco2.jpeg",
+      "descripcion": "El Impulsor con Panel, Controlador y Batería solar es una solución eficaz con una capacidad de 80 kilómetros y una frecuencia de 60 pulsos por minuto. Incluye un panel solar de 40W 12V, una batería de 12V 7 Amp Hora y un controlador solar de 12V 5 Amp. La potencia de salida del impulsor es de 12.000 voltios y 3.4 julios, y se proporciona un manual de instrucciones para una configuración sencilla. El panel solar presenta una potencia de 40W, un voltaje de 12V, una corriente de 2.2 amp, y utiliza tecnología policristalina. Sus medidas son 65x45x3 cm, con un peso de 2.9 kg y una vida útil de 20 años, ofreciendo una solución confiable y duradera para sus necesidades de seguridad.",
+      "categoria": "kit",
+      "id": "5c99466e-b99c-44e8-96a7-6f9b8fec44a0"
+    },
+    {
+      "nombre": "Cargador Celular Solar",
+      "precio": "$55.000",
+      "urlImagen": "/assets/img/cargador.webp",
+      "descripcion": "El cargador solar de la marca Cclamp, modelo CL-638WP, es una solución eficiente y ecológica para cargar dispositivos. Con una potencia de 3.8 W, voltaje máximo de 6 V y corriente máxima de 0.63A, este cargador está construido con materiales duraderos de ABS/PC y cuenta con una clasificación de protección IP65 para uso en exteriores. Viene con cinco cables para cargar diversos dispositivos. Simplemente coloque el panel solar en un lugar soleado, ajuste su ángulo para una carga óptima, y conecte su dispositivo utilizando el cable USB múltiple incluido. Este cargador solar es compatible con conjuntos y kits de energía solar, ofreciendo una forma conveniente de aprovechar la energía del sol para cargar dispositivos.",
+      "categoria": "kit",
+      "id": "e0c14438-2be5-4dc5-80d4-711817e1a855"
+    },
+    {
+      "nombre": "Kit Solar",
+      "precio": "$140.000",
+      "urlImagen": "/assets/img/cargadorkit.webp",
+      "descripcion": "El Kit Panel Solar Portátil es una solución versátil y ecológica que te permite tener energía donde la necesites. Con la capacidad de conectar hasta tres bombillos de 3W cada uno. También puedes cargar dispositivos como tu celular o tableta mediante el puerto USB 5V 0.5A y el cable multiusos incluido. La batería de 6V 4.5Ah puede recargarse tanto mediante la corriente eléctrica como con la energía solar a través del panel solar de 3.5W 6V. Además, el kit cuenta con una potente linterna incorporada para situaciones en las que necesites una fuente de luz adicional. Con una autonomía de hasta 20 horas (dependiendo del número de lámparas conectadas) y un tiempo de carga estimado de 12 a 15 horas con el panel solar, este kit es una solución completa y portátil para tus necesidades de energía. Incluye un módulo de control con batería y reflector, tres bombillos de 3W 6V, un panel solar de 3.5W 6V, un cable multiusos y un manual de instrucciones. Con este kit, puedes llevar la energía verde y sostenible a donde quieras.",
+      "categoria": "kit",
+      "id": "25e19927-e361-4f97-9692-2bd8aa6afee5"
+    },
+    {
+      "nombre": "Ventilador Solar",
+      "precio": "$250.000",
+      "urlImagen": "/assets/img/ventilador.webp",
+      "descripcion": "Este ventilador solar de 12 pulgadas combina un diseño elegante con un rendimiento potente. Equipado con un motor CC de 12 V de alta eficiencia y alimentado por una batería de 12 V-7,5 Ah, un panel solar de 12 V 10/20 W o un adaptador de corriente de 14 V-2 A, este ventilador ofrece una potencia nominal de 10 W y un control de velocidad ajustable que oscila entre 300 y 1450 RPM para mantener la frescura en cualquier entorno. Su diseño incluye una hoja de plástico de cinco hojas de bajo ruido, una parrilla resistente con 108/120 radios, y dos luces LED de 5 mm de alto brillo. Además, este ventilador proporciona opciones flexibles de energía, ya sea a través de energía solar, batería o adaptador de corriente. Es perfecto para mantenerse fresco de manera eficiente y sostenible en cualquier situación.",
+      "categoria": "kit",
+      "id": "612bb4c5-d76c-477a-ae0e-1411c03ecdef"
+    },
+    {
+      "nombre": "Radio Parlante Solar",
+      "precio": "$100.000",
+      "urlImagen": "/assets/img/parlante.webp",
+      "descripcion": "Potencia salida: 5w\nEntrada de linea: 5v1a\nTransmisión inalámbrica hasta 10M\nCapacidad de batería: 1500mah\nTiempo de carga: 3-6 Horas\nBluetooth integrado\nLinterna integrada\nEnergía solar\nRadio FM\nEntrada USB\nEntrada de Tarjeta de Memoria",
+      "categoria": "kit",
+      "id": "a8659b8c-df81-45f3-87a7-132a7e5cef88"
+    }
+  ]
+}

@@ -1,11 +1,13 @@
+const urlDesarrollo =   `http://localhost:3000/productos`
+const urlProduccion = `https://alurageek-api-three.vercel.app/productos/`
 
   
-const listarProductos = () =>fetch(`https://alurageek-api-three.vercel.app/productos `)
+const listarProductos = () =>fetch(`https://alurageek-api-three.vercel.app/productos/`)
 .then(respuesta =>respuesta.json()).catch(err => console.log(err));
 
   
 
-const crearProducto = (nombre, precio, urlImagen, descripcion, categoria) =>fetch(`https://alurageek-api-three.vercel.app/productos`,{
+const crearProducto = (nombre, precio, urlImagen, descripcion, categoria) =>fetch( `https://alurageek-api-three.vercel.app/productos/`,{
     method : "POST",
     headers : {
         "Content-Type":"application/json"

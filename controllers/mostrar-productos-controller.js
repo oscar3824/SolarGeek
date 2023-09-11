@@ -8,10 +8,12 @@ const verProducto = (urlImagen, nombre, precio, categoria, id) =>{
         <div class="imagen__container">
         <img class="imagen__productos" src="${urlImagen}" alt="imagen del producto">
         </div>
+        <div class="info">
         <h5 class="nombre_producto">${nombre}</h5>
         <p class="precio" >${precio}</p>
         <a href="screens/verProducto.html?id=${id}" class="sobre"><button class="ver__producto" data-btn>ver producto</button></a>
-    </li>
+        </div>
+        </li>
 `
 card.innerHTML = contenido;
 return card;
@@ -20,6 +22,7 @@ return card;
 
 const secciones = {
   iluminacion: document.querySelector("[data-iluminacion]"),
+  camaras:document.querySelector("[data-camaras]"),
   kit: document.querySelector("[data-kit]")
 };
 
@@ -28,7 +31,8 @@ const maxProductosPorSeccion = 6; // Define el número máximo de productos por 
 productosServicios.listarProductos().then((info) => {
   const contador = {
       iluminacion: 0,
-      kit: 0
+      kit: 0,
+      camaras: 0
   };
 
   info.forEach(({ urlImagen, nombre, precio, categoria, id }) => {
@@ -38,9 +42,13 @@ productosServicios.listarProductos().then((info) => {
         secciones.iluminacion.appendChild(producto)
         contador.iluminacion++;
       }
-      else if(categoria === "kit" && contador.kit<maxProductosPorSeccion){
+      else if(categoria === "kit" && contador.kit < maxProductosPorSeccion){
         secciones.kit.appendChild(producto)
         contador.kit++;
+      }
+      else if(categoria === "camaras" && contador.camaras < maxProductosPorSeccion){
+        secciones.camaras.appendChild(producto)
+        contador.camaras++;
       }
       
   });
