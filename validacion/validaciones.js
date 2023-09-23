@@ -1,7 +1,6 @@
 const miFormulario = document.querySelector("[data-form]");
 
 miFormulario.addEventListener("submit", (evento) => {
-    alert("Tu información se envío con exito, te llevaré de vuelta a la pagina de inicio")
     
   });
 
